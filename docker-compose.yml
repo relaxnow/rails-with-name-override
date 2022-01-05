@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  cli:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/ruby-docker
